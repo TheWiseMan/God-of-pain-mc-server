@@ -30,6 +30,7 @@ La syntaxe est: modname [modversion]
 
 all of the above, plus:
 
+- [ ] AppleSkin [2.4.3]
 - [ ] Alex's mobs [1.22.2]
 - [ ] Amplified Nether [1.2.1a]
 - [ ] Badpackets [0.4.1]
