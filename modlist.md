@@ -4,6 +4,7 @@ La syntaxe est: modname [modversion]
 
 - [x] Alex's mobs [1.22.2]
 - [x] Amplified Nether [1.2.1a]
+- [x] AppleSkin [2.4.3]
 - [x] Badpackets [0.4.1]
 - [x] BiomesOPlenty [17.3.0.542]
 - [x] Citadel [2.3.3]
@@ -27,8 +28,6 @@ La syntaxe est: modname [modversion]
 - [ ]
  
 # Client side
-
-all of the above, plus:
 
 - [ ] AppleSkin [2.4.3]
 - [ ] Alex's mobs [1.22.2]
