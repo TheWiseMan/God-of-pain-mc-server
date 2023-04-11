@@ -25,7 +25,7 @@ La syntaxe est: modname [modversion]
 - [x] Yung's Bridges [3.3.0]
 - [x] Yung's Extras [3.3.0]
 - [ ] Acquaculture 2
-- [ ]
+- [ ] Nature's Compass
  
 # Client side
 
