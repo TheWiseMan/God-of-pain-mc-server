@@ -1,4 +1,13 @@
 @echo off
+
+echo [93m Please note that installing this modpack will remove all existing mods.
+echo "Consider making a backup of your mods folder before proceeding."
+choice /M "Do you want to proceed ? "
+
+if %errorlevel% EQU 2 (
+    exit
+)
+
 echo [92m WiseMan Updater Started [37m
 set "wisepackJavaRep=https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.zip"
 set "wisepackForgeRep=https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.4-45.0.43/forge-1.19.4-45.0.43-installer.jar"
