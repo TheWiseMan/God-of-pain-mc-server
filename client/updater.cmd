@@ -6,7 +6,7 @@ set "wisepackJavaFol=jdk-17.0.6"
 set "wisepackJavaVer=JAVA17"
 set "wisepackForgeVer=FORGE45.0.43"
 set "wisepackModsRep=https://dl.dropboxusercontent.com/s/imhvx9mfv7htum8/modpack.zip"
-set "appdata=%appdata%/wise"
+set "appdata=%appdata%"
 
 echo [96m Downloading %wisepackJavaVer%. [37m
 curl -o java.zip %wisepackJavaRep%
