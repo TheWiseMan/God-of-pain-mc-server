@@ -43,9 +43,11 @@ cd %wisepackJavaFol%/bin
 java.exe -jar ../../forge.jar
 cd ../../
 echo [92m %wisepackForgeVer% installed. [37m
-echo [96m Creating mod folder [37m
+
+echo [96m Cleaning mod folder. [37m
+rmdir /S /Q "%appdata%/.minecraft/mods"
 mkdir "%appdata%/.minecraft/mods"
-echo [92m Mod folder created. [37m
+echo [92m mod folder cleaned. [37m
 
 echo [96m Moved WisePack. [37m
 copy /B /Y wisepack.zip "%appdata%/.minecraft/mods/wisepack.zip"
