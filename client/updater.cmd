@@ -5,6 +5,7 @@ echo "Consider making a backup of your mods folder before proceeding."
 choice /M "Do you want to proceed ? "
 
 if %errorlevel% EQU 2 (
+    echo [37m Installation aborted.
     exit
 )
 
