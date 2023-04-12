@@ -48,7 +48,7 @@ del /f forge.jar
 echo [92m Deleted. [37m
 
 echo [96m Deleting %wisepackJavaVer% [37m
-del /f %wisepackJavaFol%
+rmdir /S /Q %wisepackJavaFol%
 del /f java.zip
 echo [92m Deleted. [37m
 
