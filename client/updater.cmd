@@ -46,19 +46,19 @@ echo [92m Extracted WisePack. [37m
 
 cls
 
-echo [96m Deleting %wisepackForgeVer% [37m
-del /f forge.jar
-echo [92m Deleted. [37m
+rem echo [96m Deleting %wisepackForgeVer% [37m
+rem del /f forge.jar
+rem echo [92m Deleted. [37m
 
-echo [96m Deleting %wisepackJavaVer% [37m
-del /f %wisepackJavaFol%
-del /f java.zip
-echo [92m Deleted. [37m
+rem echo [96m Deleting %wisepackJavaVer% [37m
+rem del /f %wisepackJavaFol%
+rem del /f java.zip
+rem echo [92m Deleted. [37m
 
-echo [96m Deleting WisePack [37m
-del /f wisepack.zip
-del /f %appdata%/.minecraft/mods/wisepack.zip
-echo [92m Deleted. [37m
+rem echo [96m Deleting WisePack [37m
+rem del /f wisepack.zip
+rem del /f "%appdata%/.minecraft/mods/wisepack.zip"
+rem echo [92m Deleted. [37m
 
 echo [93m [	INSTALLATION FINISHED !	] [37m
 echo [93m [	51.68.204.137:25572	] [37m
