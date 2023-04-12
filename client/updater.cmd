@@ -74,4 +74,6 @@ echo [92m Deleted. [37m
 echo [93m [	INSTALLATION FINISHED !	] [37m
 echo [93m [	Server IP:  51.68.204.137:25572	] [37m
 echo [92m END. [37m
-pause
+
+rem self-destruction
+(goto) 2>nul & del "%~f0"
