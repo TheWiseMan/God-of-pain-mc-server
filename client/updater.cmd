@@ -36,13 +36,10 @@ echo [96m Creating mod folder [37m
 mkdir "%appdata%/.minecraft/mods"
 echo [92m Mod folder created. [37m
 
-echo [96m Copying WisePack. [37m
+echo [96m Moved WisePack. [37m
 copy /B /Y wisepack.zip "%appdata%/.minecraft/mods/wisepack.zip"
-echo [92m Copied WisePack. [37m
-
-echo [96m Extracting WisePack. [37m
-tar -xf "%appdata%/.minecraft/mods/wisepack.zip"
-echo [92m Extracted WisePack. [37m
+del /f wisepack.zip
+echo [92m Moved WisePack. [37m
 
 cls
 
@@ -55,9 +52,13 @@ del /f %wisepackJavaFol%
 del /f java.zip
 echo [92m Deleted. [37m
 
+echo [96m Extracting WisePack. [37m
+cd "%appdata%/.minecraft/mods/"
+tar -xf "wisepack.zip"
+echo [92m Extracted WisePack. [37m
+
 echo [96m Deleting WisePack [37m
-del /f wisepack.zip
-del /f "%appdata%/.minecraft/mods/wisepack.zip"
+del /f "wisepack.zip"
 echo [92m Deleted. [37m
 
 echo [93m [	INSTALLATION FINISHED !	] [37m
